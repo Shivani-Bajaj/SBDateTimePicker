@@ -10,6 +10,13 @@
 		0D0956F42345CA5900174994 /* SBDateTimePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0956EA2345CA5900174994 /* SBDateTimePicker.framework */; };
 		0D0956F92345CA5900174994 /* SBDateTimePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0956F82345CA5900174994 /* SBDateTimePickerTests.swift */; };
 		0D0956FB2345CA5900174994 /* SBDateTimePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0956ED2345CA5900174994 /* SBDateTimePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D0957062345CAE100174994 /* DateTimePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D0957042345CAE100174994 /* DateTimePickerView.xib */; };
+		0D0957072345CAE100174994 /* DateTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0957052345CAE100174994 /* DateTimePickerView.swift */; };
+		0D09570F2345D39A00174994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D09570E2345D39A00174994 /* AppDelegate.swift */; };
+		0D0957112345D39A00174994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0957102345D39A00174994 /* ViewController.swift */; };
+		0D0957142345D39A00174994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0957122345D39A00174994 /* Main.storyboard */; };
+		0D0957162345D39C00174994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D0957152345D39C00174994 /* Assets.xcassets */; };
+		0D0957192345D39C00174994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0957172345D39C00174994 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,15 @@
 		0D0956F32345CA5900174994 /* SBDateTimePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBDateTimePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0956F82345CA5900174994 /* SBDateTimePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBDateTimePickerTests.swift; sourceTree = "<group>"; };
 		0D0956FA2345CA5900174994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0957042345CAE100174994 /* DateTimePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTimePickerView.xib; sourceTree = "<group>"; };
+		0D0957052345CAE100174994 /* DateTimePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimePickerView.swift; sourceTree = "<group>"; };
+		0D09570C2345D39A00174994 /* SBDateTimePickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBDateTimePickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D09570E2345D39A00174994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D0957102345D39A00174994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D0957132345D39A00174994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D0957152345D39C00174994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D0957182345D39C00174994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D09571A2345D39C00174994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0D0957092345D39A00174994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +78,7 @@
 			children = (
 				0D0956EC2345CA5900174994 /* SBDateTimePicker */,
 				0D0956F72345CA5900174994 /* SBDateTimePickerTests */,
+				0D09570D2345D39A00174994 /* SBDateTimePickerExample */,
 				0D0956EB2345CA5900174994 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				0D0956EA2345CA5900174994 /* SBDateTimePicker.framework */,
 				0D0956F32345CA5900174994 /* SBDateTimePickerTests.xctest */,
+				0D09570C2345D39A00174994 /* SBDateTimePickerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +96,8 @@
 		0D0956EC2345CA5900174994 /* SBDateTimePicker */ = {
 			isa = PBXGroup;
 			children = (
+				0D0957052345CAE100174994 /* DateTimePickerView.swift */,
+				0D0957042345CAE100174994 /* DateTimePickerView.xib */,
 				0D0956ED2345CA5900174994 /* SBDateTimePicker.h */,
 				0D0956EE2345CA5900174994 /* Info.plist */,
 			);
@@ -84,6 +111,19 @@
 				0D0956FA2345CA5900174994 /* Info.plist */,
 			);
 			path = SBDateTimePickerTests;
+			sourceTree = "<group>";
+		};
+		0D09570D2345D39A00174994 /* SBDateTimePickerExample */ = {
+			isa = PBXGroup;
+			children = (
+				0D09570E2345D39A00174994 /* AppDelegate.swift */,
+				0D0957102345D39A00174994 /* ViewController.swift */,
+				0D0957122345D39A00174994 /* Main.storyboard */,
+				0D0957152345D39C00174994 /* Assets.xcassets */,
+				0D0957172345D39C00174994 /* LaunchScreen.storyboard */,
+				0D09571A2345D39C00174994 /* Info.plist */,
+			);
+			path = SBDateTimePickerExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +176,23 @@
 			productReference = 0D0956F32345CA5900174994 /* SBDateTimePickerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0D09570B2345D39A00174994 /* SBDateTimePickerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D09571B2345D39C00174994 /* Build configuration list for PBXNativeTarget "SBDateTimePickerExample" */;
+			buildPhases = (
+				0D0957082345D39A00174994 /* Sources */,
+				0D0957092345D39A00174994 /* Frameworks */,
+				0D09570A2345D39A00174994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBDateTimePickerExample;
+			productName = SBDateTimePickerExample;
+			productReference = 0D09570C2345D39A00174994 /* SBDateTimePickerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +205,12 @@
 				TargetAttributes = {
 					0D0956E92345CA5900174994 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					0D0956F22345CA5900174994 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0D09570B2345D39A00174994 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -160,6 +221,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0D0956E02345CA5900174994;
 			productRefGroup = 0D0956EB2345CA5900174994 /* Products */;
@@ -168,6 +230,7 @@
 			targets = (
 				0D0956E92345CA5900174994 /* SBDateTimePicker */,
 				0D0956F22345CA5900174994 /* SBDateTimePickerTests */,
+				0D09570B2345D39A00174994 /* SBDateTimePickerExample */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0957062345CAE100174994 /* DateTimePickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +251,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0D09570A2345D39A00174994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0957192345D39C00174994 /* LaunchScreen.storyboard in Resources */,
+				0D0957162345D39C00174994 /* Assets.xcassets in Resources */,
+				0D0957142345D39A00174994 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0957072345CAE100174994 /* DateTimePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +277,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D0956F92345CA5900174994 /* SBDateTimePickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0957082345D39A00174994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0957112345D39A00174994 /* ViewController.swift in Sources */,
+				0D09570F2345D39A00174994 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +298,25 @@
 			targetProxy = 0D0956F52345CA5900174994 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D0957122345D39A00174994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D0957132345D39A00174994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D0957172345D39C00174994 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D0957182345D39C00174994 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0D0956FC2345CA5900174994 /* Debug */ = {
@@ -341,6 +444,7 @@
 		0D0956FF2345CA5900174994 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -357,6 +461,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Shivani.SBDateTimePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +470,7 @@
 		0D0957002345CA5900174994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +495,7 @@
 		0D0957022345CA5900174994 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SBDateTimePickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +513,7 @@
 		0D0957032345CA5900174994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SBDateTimePickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -414,6 +522,40 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Shivani.SBDateTimePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D09571C2345D39C00174994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SBDateTimePickerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shivani.SBDateTimePickerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D09571D2345D39C00174994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SBDateTimePickerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shivani.SBDateTimePickerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,6 +588,15 @@
 			buildConfigurations = (
 				0D0957022345CA5900174994 /* Debug */,
 				0D0957032345CA5900174994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D09571B2345D39C00174994 /* Build configuration list for PBXNativeTarget "SBDateTimePickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D09571C2345D39C00174994 /* Debug */,
+				0D09571D2345D39C00174994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
