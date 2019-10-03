@@ -28,6 +28,7 @@ Pod::Spec.new do |spec|
   #  date and time.
 
   spec.description  = <<-DESC
+  DESC
   It becomes hectic when we talk about date selection or or time selection or date   
   and time selection or implementing a countdown timer in iOS Application. So here is the UI that will be implemented just by selecting the mode you want to set. You can also set the default date and time.
 
